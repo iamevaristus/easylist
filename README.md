@@ -1,5 +1,9 @@
 # EasyList Documentation
 
+This is inspired by Flutter simplified list clauses
+and methods. With those simplifications in flutter,
+EasyList was born, to make list easy in java.
+
 ## Features
 
 ---
@@ -75,26 +79,19 @@ The easy list repository can be accessed here [^3].
 [^2]: https://iamevaristus@github.io
 [^3]: https://github.com/iamevaristus/easylist.git
 
-> ---
 > [!NOTE]
 > EasyList works with the ideology of list in flutter.
 > The concept is built on flutter list clauses and
 > methods that makes it easy to render, access and
 > implement lists.
-> ---
 
-> ---
 > [!IMPORTANT]
 > EasyList is in BETA mode. This is the first
 > dependency I have created and I plan on maintaining
 > it. Also, this depends on flutter list ideology.
-> ---
 
-> ---
 > [!WARNING]
 > Enjoy the usage of EasyList.
-> 
-> ---
 
 ---
 
