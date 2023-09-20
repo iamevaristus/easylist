@@ -49,6 +49,39 @@ EasyList was born, to make list easy in java.
 
 ---
 
+> [!NOTE]
+> EasyList works with the ideology of list in flutter.
+> The concept is built on flutter list clauses and
+> methods that makes it easy to render, access and
+> implement lists.
+
+> [!IMPORTANT]
+> EasyList is in BETA mode. This is the first
+> dependency I have created and I plan on maintaining
+> it. Also, this depends on flutter list ideology.
+
+> [!WARNING]
+> Enjoy the usage of EasyList.
+
+### Installation
+
+Import EasyList to your dependency with the following.
+
+```
+<dependencies>
+  <dependency>
+    <groupId>com.easylist</groupId>
+    <artifactId>easylist</artifactId>
+    <version>v1.0</version>
+  </dependency>
+</dependencies>
+```
+
+### Usage
+
+To use EasyList, just call it with any class, model,
+data types, just like other lists.
+
 ```
 EasyList<String> easyList = new EasyList<>();
 
@@ -79,23 +112,9 @@ The easy list repository can be accessed here [^3].
 [^2]: https://iamevaristus@github.io
 [^3]: https://github.com/iamevaristus/easylist.git
 
-> [!NOTE]
-> EasyList works with the ideology of list in flutter.
-> The concept is built on flutter list clauses and
-> methods that makes it easy to render, access and
-> implement lists.
-
-> [!IMPORTANT]
-> EasyList is in BETA mode. This is the first
-> dependency I have created and I plan on maintaining
-> it. Also, this depends on flutter list ideology.
-
-> [!WARNING]
-> Enjoy the usage of EasyList.
-
 ---
 
-## Parameters
+## Parameters and Clauses
 
 ---
 
