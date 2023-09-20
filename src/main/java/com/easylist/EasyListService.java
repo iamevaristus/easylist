@@ -89,7 +89,14 @@ public interface EasyListService<E> {
      * @param predicate Condition to be met.
      * @return Integer.
      */
-    public int indexWhere(Predicate<? super E> predicate) throws EasyListException;
+    public List<Integer> indexWhere(Predicate<? super E> predicate);
+
+    /**
+     * Get the first index where the condition is met.
+     * @param predicate Condition to be met.
+     * @return Integer.
+     */
+    public int firstIndexWhere(Predicate<? super E> predicate) throws EasyListException;
 
     /**
      * Gets the last index where the condition is met.
@@ -179,9 +186,9 @@ public interface EasyListService<E> {
 
     /**
      * Set
-     * @param start
-     * @param end
-     * @param elements
+     * @param start Integer start
+     * @param end Integer end
+     * @param elements Items to add
      */
     public void setRange(int start, int end, List<E> elements) throws EasyListException;
 

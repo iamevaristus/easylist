@@ -122,13 +122,26 @@ public abstract class EasyListImplementation<E> implements EasyListService<E> {
     }
 
     @Override
-    public int indexWhere(Predicate<? super E> predicate) throws EasyListException {
+    public int firstIndexWhere(Predicate<? super E> predicate) throws EasyListException {
         for (int i = 0; i < length(); i++) {
             if (predicate.test(get(i))) {
                 return i;
             }
         }
         throw new EasyListException(EasyListException.INDEX_OUT_OF_BOUNDS);
+    }
+
+    @Override
+    public List<Integer> indexWhere(Predicate<? super E> predicate) {
+        List<Integer> integerList = new ArrayList<>();
+
+        for (int i = 0; i < length(); i++) {
+            if (predicate.test(list.get(i))) {
+                integerList.add(i);
+            }
+        }
+
+        return integerList;
     }
 
     @Override
